@@ -1,0 +1,6 @@
+파일명: META-DATA
+
+파일 내부
+name=이름
+id=아이디
+item=
