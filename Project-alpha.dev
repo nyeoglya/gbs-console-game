@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=4
 CompilerSettings=0000000100000000001000000
-UnitCount=6
+UnitCount=7
 
 [VersionInfo]
 Major=1
@@ -104,6 +104,16 @@ BuildCmd=
 FileName=core\bridge.cpp
 CompileCpp=1
 Folder=core
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit7]
+FileName=core\utils\soundManager.cpp
+CompileCpp=1
+Folder=core/utils
 Compile=1
 Link=1
 Priority=1000
